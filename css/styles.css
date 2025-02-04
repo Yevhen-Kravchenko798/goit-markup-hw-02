@@ -43,7 +43,7 @@ ul {
     color: #404bbf;
 }
 
-.header-link :focus {
+.header-link:focus {
     color: #404bbf;
 }
 
