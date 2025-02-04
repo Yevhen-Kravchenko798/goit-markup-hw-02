@@ -13,43 +13,53 @@ ul {
 }
 
 /*--------------------header-------------------*/
-
 .header-logo {
-    color: #2E2F42;
-        font-family: Raleway, sans-serif;
-        font-size: 18px;
-        font-weight: 700;
-        line-height: 1.17;
-        letter-spacing: 0.03em;
-        text-transform: uppercase;
-}
-
-.header-logo-color {
-    color: #4D5AE5;
     font-family: Raleway, sans-serif;
     font-size: 18px;
     font-weight: 700;
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
+    color: #4D5AE5;
+}
+
+.header-logo .header-part {
+    color: #2E2F42;
+}
+
+.footer-logo .footer-part {
+    color: #F4F4FD;
 }
 
 .header-link {
-        color: #2E2F42;
         font-size: 16px;
         font-weight: 500;
         line-height: 1.5;
-        letter-spacing: 0.02;
+        letter-spacing: 0.02em;
+        color: #2E2F42;
 }
 
- .address {
-        color: #434455;
+.header-link:hover, 
+.header-link :focus {
+    color: #404bbf;
+}
+
+ .address-link {
         font-size: 16px;
-        font-weight: 400;
         line-height: 1.5;
         letter-spacing: 0.02em;
         font-style: normal;
+        color: #434455;
  }
+
+  .address-link:hover,
+  .address-link:focus {
+     color: #404bbf;
+  }
+  
+.footer {
+    background-color: #2E2F42;
+}
 
  .section-main {
     background-color: #2E2F42;
@@ -65,7 +75,7 @@ ul {
  }
 
  .main-btn {
-        font-family: Roboto sans-serif;
+        font-family: Roboto, sans-serif;
         font-size: 16px;
         font-weight: 500;
         line-height: 1.5;
