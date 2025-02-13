@@ -47,6 +47,8 @@ ul {
     color: #404bbf;
 }
 
+/**********************address************/
+
 .address {
     font-style: normal;
 }
@@ -66,6 +68,8 @@ ul {
 .footer {
     background-color: #2E2F42;
 }
+
+/****************************section-main***********/
 
  .section-main {
     background-color: #2E2F42;
@@ -98,4 +102,20 @@ ul {
  .main-btn:focus{
         background-color: #404BBF;
  }
+
+ /*************section-text**************/
+
+ .section-hero-list {
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 1.2;
+        letter-spacing: 0.02em;
+        color: #2e2f42;
+ }
  
+ .hero-text-list {
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: #434455;
+ }
